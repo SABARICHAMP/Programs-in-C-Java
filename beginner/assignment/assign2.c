@@ -9,7 +9,7 @@ int main(void) {
 	printf("NAME:%s\n",ch);
 	printf("NICK-NAME:%s\n",ch1);
 	printf("RUNS SCORED:%d\n",a);
-	printf("BATTING AVERAGE:%f\n",f);
+	printf("BATTING AVERAGE:%.2f\n",f);
 	printf("ODI-MATCHES:%d\n",b);
 	
 	return 0;
