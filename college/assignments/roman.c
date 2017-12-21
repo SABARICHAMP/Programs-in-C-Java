@@ -2,7 +2,7 @@
 #include<string.h>
 int main(void)
 {
- int a[20],s,i=0,j,k;
+ int a[20],s,i=0,k;
  char roman[5];
  printf("Enter Only alphabets I,V,X");
  scanf("%s",roman);
