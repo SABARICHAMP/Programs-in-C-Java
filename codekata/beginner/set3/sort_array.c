@@ -2,7 +2,7 @@
 int main(void) 
 {
 int n;
-int maximum,arr[15],temp=0;
+int arr[15],temp=0;
 scanf("%d",&n);
 for(int i=0;i<n;i++)
 {
