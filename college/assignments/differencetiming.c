@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void) {
 	int a,b,a1,b1,hr,min,min1;
 	printf("Start time:\n");
