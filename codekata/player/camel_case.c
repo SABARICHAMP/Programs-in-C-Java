@@ -21,6 +21,14 @@ int main()
 				continue; 
 			}
 		}
+		else
+		{
+		if(str[j]>='A' && str[j]<='Z')
+			{
+				str[j]=str[j]+32; 
+				continue; 
+			}	
+		}
 		
 	}
 	
