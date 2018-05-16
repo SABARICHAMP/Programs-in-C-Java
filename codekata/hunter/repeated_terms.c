@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-int n,temp=0,arr[15];
+int n,count=0,temp=0,arr[15];
 scanf("%d",&n);
 for(int i=0;i<n;i++)
 {
@@ -32,18 +32,19 @@ for(int i=0;i<n;i++)
 			arr[n]='\0';
 			n--;
 			
-			
 		}
 		
 	}
 	
 		
 	}
-	else
-	{
-		printf("unique");
-		break;
-	}
+
+count++;
+	
+}
+if(count==0)
+{
+	printf("unique");
 }
 			
 	return 0;
